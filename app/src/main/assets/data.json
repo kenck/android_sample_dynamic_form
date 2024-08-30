@@ -1,0 +1,178 @@
+{
+  "formID": 1,
+  "formName": "Sync. Data",
+  "layouts": [
+    {
+      "layoutScroll": "HORIZONTAL",
+      "_comment": "layoutScroll -> HORIZONTAL or VERTICAL",
+      "paddingLeft": 50,
+      "paddingTop": 10,
+      "paddingRight": 50,
+      "paddingBottom": 10,
+      "controls": [
+        {
+          "controlID": 1,
+          "controlName": "tv1",
+          "controlType": "TextView",
+          "controlText": "My Text View",
+          "enable": true,
+          "controlEvents": [{
+            "eventID": 1,
+            "eventName": "Click",
+            "eventText": "My Click",
+            "func":{
+              "funcID": 1,
+              "funcName": "functionA",
+              "funcText": "My Func",
+              "isBackground": false,
+              "isShowMessage": true
+            }
+          }]
+        },
+        {
+          "controlID": 2,
+          "controlName": "bt1",
+          "controlType": "Button",
+          "controlText": "LongClick Function A",
+          "enable": true,
+          "controlEvents": [{
+            "eventID": 1,
+            "eventName": "LongClick",
+            "eventText": "My LongClick",
+            "func":{
+              "funcID": 1,
+              "funcName": "functionA",
+              "funcText": "My Long Click",
+              "isBackground": false,
+              "isShowMessage": true
+            }
+          }]
+        },
+        {
+          "controlID": 3,
+          "controlName": "et1",
+          "controlType": "EditText",
+          "controlText": "Name",
+          "enable": true,
+          "controlEvents": [{
+            "eventID": 1,
+            "eventName": "TextChange",
+            "eventText": "My EditText",
+            "func":{
+              "funcID": 1,
+              "funcName": "functionA",
+              "funcText": "My EditText Change",
+              "isBackground": false,
+              "isShowMessage": true
+            }
+          }]
+        }
+      ]
+    },
+    {
+      "layoutScroll": "VERTICAL",
+      "_comment": "layoutScroll -> HORIZONTAL or VERTICAL",
+      "paddingLeft": 50,
+      "paddingTop": 10,
+      "paddingRight": 50,
+      "paddingBottom": 10,
+      "controls": [
+        {
+          "controlID": 1,
+          "controlName": "tv1",
+          "controlType": "TextView",
+          "controlText": "My Text View",
+          "enable": true,
+          "controlEvents": [{
+            "eventID": 1,
+            "eventName": "Click",
+            "eventText": "My Click",
+            "func":{
+              "funcID": 1,
+              "funcName": "functionA",
+              "funcText": "My Func",
+              "isBackground": false,
+              "isShowMessage": true
+            }
+          }]
+        },
+        {
+          "controlID": 2,
+          "controlName": "bt1",
+          "controlType": "Button",
+          "controlText": "LongClick Function A",
+          "enable": true,
+          "controlEvents": [{
+            "eventID": 1,
+            "eventName": "LongClick",
+            "eventText": "My LongClick",
+            "func":{
+              "funcID": 1,
+              "funcName": "functionA",
+              "funcText": "My Long Click",
+              "isBackground": false,
+              "isShowMessage": true
+            }
+          }]
+        },
+        {
+          "controlID": 3,
+          "controlName": "et1",
+          "controlType": "EditText",
+          "controlText": "Name",
+          "enable": true,
+          "controlEvents": [{
+            "eventID": 1,
+            "eventName": "TextChange",
+            "eventText": "My EditText",
+            "func":{
+              "funcID": 1,
+              "funcName": "functionA",
+              "funcText": "My EditText Change",
+              "isBackground": false,
+              "isShowMessage": true
+            }
+          }]
+        },
+        {
+          "controlID": 2,
+          "controlName": "bt1",
+          "controlType": "Button",
+          "controlText": "Click Function A",
+          "enable": true,
+          "controlEvents": [{
+            "eventID": 1,
+            "eventName": "Click",
+            "eventText": "My Click",
+            "func":{
+              "funcID": 1,
+              "funcName": "functionA",
+              "funcText": "My Click",
+              "isBackground": false,
+              "isShowMessage": true
+            }
+          }]
+        },
+        {
+          "controlID": 2,
+          "controlName": "bt1",
+          "controlType": "Button",
+          "controlText": "Click xxxx",
+          "enable": true,
+          "controlEvents": [{
+            "eventID": 1,
+            "eventName": "Click",
+            "eventText": "My Click",
+            "func":{
+              "funcID": 1,
+              "funcName": "functionA",
+              "funcText": "My Click",
+              "isBackground": false,
+              "isShowMessage": true
+            }
+          }]
+        }
+      ]
+    }
+  ]
+}
